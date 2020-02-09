@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="MainDIV">
+  <div id="inputForm">
+      <input type="text" maxlength="20" placeholder="Name" class="names">    
+      <input type="email" placeholder="Email" class="emails" >  
+      <input type="number" maxlength="11" placeholder="Mobile" class="numbers">
+      <button class="add" >Add</button>
+      <button class="Clear" >Clear</button>
+  </div>
+ 
+  <div id="tbl_wrap">
+      <table id="tbl" border="1">
+          <tr class="bgTbl">
+              <td>Name</td>
+              <td>Email</td>
+              <td>Mobile</td>       
+              <td>Remove</td>
+          </tr>
+      </table>
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
